@@ -7,10 +7,10 @@ export default class Demo extends Phaser.Scene
         super('demo');
     }
 
-    preload ()
-    {
-        this.load.image('logo', 'assets/phaser3-logo.png');
-        this.load.image('libs', 'assets/libs.png');
+    preload (){
+    
+        this.load.image('logo', 'assets/2.png');
+        this.load.image('libs', 'assets/1.png');
         this.load.glsl('bundle', 'assets/plasma-bundle.glsl.js');
         this.load.glsl('stars', 'assets/starfields.glsl.js');
     }
